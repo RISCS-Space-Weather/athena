@@ -77,6 +77,7 @@ OAorder    = 0        # 0: w/o OA, 1: w/ OA(1st), 2: w/ OA(2nd)
 Omega0     = 8.202656021    # angular velocity of the rotating system, normalized 2.87e-6*2858068.3
 
 <problem>
+import_1d_data = false
 compute_error = false   # check whether blast is spherical at end
 AU = 1.5e11
 eo = 1.6e-19
