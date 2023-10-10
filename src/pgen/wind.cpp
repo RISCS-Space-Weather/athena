@@ -356,7 +356,7 @@ void MeshBlock::ProblemGenerator(ParameterInput *pin) {
   std::stringstream stream;
 
   if(import_1d_data) {
-    datafile.open("solar_wind.block0.out2.00001.tab",std::ios::in); //open a file to perform read operation using file object
+    datafile.open("inputs/hydro/solar_wind.block0.out2.00001.tab",std::ios::in); //open a file to perform read operation using file object
     if (datafile.is_open()){ //checking whether the file is open
       std::string line;
       while(std::getline(datafile, line)){ //read data from file object and put it into string.
