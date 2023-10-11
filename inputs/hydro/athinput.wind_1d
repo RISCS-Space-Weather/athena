@@ -26,7 +26,7 @@ dt          = 0.6
 <time>
 cfl_number = 0.4        # The Courant, Friedrichs, & Lewy (CFL) Number
 nlim       = -1         # cycle limit
-tlim       = 0.6        # time limit
+tlim       = 0.7        # time limit
 start_time = 0.0        # time at the beginning of new simulation
 integrator  = vl2       # time integration algorithm
 # vl2 (default) : second-order accurate van Leer predictor-corrector scheme
