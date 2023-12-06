@@ -180,7 +180,8 @@ void Mesh::InitUserMeshData(ParameterInput *pin) {
   CME_start = pin->GetOrAddReal("problem", "CME_timestart_hrs",1e20)*3600/t_o;
   CME_duration = pin->GetOrAddReal("problem", "CME_timespan_hrs",0.)*3600/t_o;
 
-  CME_density = pin->GetOrAddReal("problem", "CME_density",1.);
+  // CME_density = pin->GetOrAddReal("problem", "CME_density",1.);
+  CME_density = n_inner * 4;
   CME_velocity = pin->GetOrAddReal("problem", "CME_velocity",0.)*1000/vo;
   CME_energy = e_inner*2;
 
